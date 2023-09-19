@@ -1,8 +1,67 @@
-body {
-  color: red;
+
+html {
+  height: 100%;
+  width: 100%;
 }
 
-h1 {
-  color: red;
-  font-family: monospace;
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+align-items: center;
+}
+
+.outer-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.card-cont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 625px;
+}
+
+.card {
+  width: 175px;
+  height: 200px;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-bottom: 25px;
+  border: 1px solid lightgray;
+  text-shadow: 1px 1px lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+#card1 {
+  text-shadow: 1px 1px lightgray
+}
+
+#card2 {
+  background-color: black;
+  text-shadow: none;
+  color: white;
+}
+
+#card3 h3{
+  display: flex;
+  justify-content: space-around;
+  background-color: #EACACA;
+  text-shadow: none;
+  box-shadow: 0px 1px 1px lightgray;
+  width: 80%;
+}
+#card4 {
+  border: 1px solid blue;
+}
+#card4 h3{
+  color: #E31948
 }
